@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Condensed&display=swap');
+
+* {
+	font-family: 'Ubuntu Condensed', sans-serif;
+	letter-spacing: 1px;
+}
+
+body {
+	background: #3a3c3a;
+	color: white;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #3a3c3a;
+  box-shadow: inset 0 0 3px rgba(0, 0, 0, 0.5);
+}
+::-webkit-scrollbar-thumb {
+  background: #999;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #32c5aa;
+}
+
+
+.flexCont {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.startBtn {
+	width: 100%;
+	max-width: 400px; 
+	background-color:#32c5aa; 
+	color: white; 
+	border: none; 
+	border-radius: 0px; 
+	padding: 10px; 
+	margin-bottom: 10px;
+	transition: 0.3s;
+}
+.startBtn:hover {
+	background-color: white;
+	color: #32c5aa;
+	box-shadow: inset 0 0 0 2px #32c5aa;
+}
