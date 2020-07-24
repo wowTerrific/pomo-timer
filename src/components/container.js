@@ -2,7 +2,7 @@ import React from "react"
 
 const Container = ({ children }) => (
 	<div style={{ 
-		width: '100%',
+		width: 'auto',
 		padding: '1rem 2rem', 
 		border: '2px solid #32c5aa', 
 		borderRadius: '20px', 

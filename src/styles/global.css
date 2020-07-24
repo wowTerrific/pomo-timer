@@ -1,12 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@700&display=swap');
 
 * {
 	font-family: 'Ubuntu Condensed', sans-serif;
 	letter-spacing: 1px;
+	line-height: 1.2;
 }
 
 body {
-	background: #3a3c3a;
+	background: #131513;
 	color: white;
 }
 
@@ -46,4 +48,37 @@ body {
 	background-color: white;
 	color: #32c5aa;
 	box-shadow: inset 0 0 0 2px #32c5aa;
+}
+
+.times-up {
+	width: 100%;
+	max-width: 600px;
+	margin: auto;
+	color: white;
+	text-align: center;
+	font-size: 4rem;
+}
+.times-up img {
+	display: block;
+	margin: auto;
+	width: 100%;
+	height: auto;
+	max-width: 400px;
+	margin-bottom: 30px;
+}
+.times-up p:nth-child(3) {
+	font-size: 3rem;
+}
+
+.hr-timer {
+	font-size: 10em;
+	text-align: center;
+}
+.hr-timer p {
+	font-family: 'Teko', sans-serif;
+	margin-bottom: 0;
+	color: white;
+}
+@media only screen and (max-width: 767px) {
+	.hr-timer {font-size: 32px;}
 }
