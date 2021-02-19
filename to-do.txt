@@ -1,0 +1,9 @@
+To do:
+	- Figure out how to do notifications without popups due to browsers not running minimized screens
+	- Update to use ReactJS Hooks to manage state
+	- Figure out Pomodoro Timer
+
+	- Divide pages:
+		- Homepage
+		- Pomodoro Timer / Custom timer
+		- Hourly Timer
