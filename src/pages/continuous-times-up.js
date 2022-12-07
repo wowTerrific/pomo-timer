@@ -9,6 +9,7 @@ const ContinuousTimesUp = () => (
 		<img src={Clock} alt="clock" />
 		<p>Time&apos;s up!</p>
 		<p>Your Continuous Time is up.</p>
+		<p>What happens now?</p>
 	</div>
   </Layout>
 )
